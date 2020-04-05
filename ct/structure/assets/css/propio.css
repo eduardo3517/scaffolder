@@ -1,0 +1,493 @@
+@font-face {
+    font-family: 'olivierregular', sans-serif;
+    src: url('olivier-webfont.woff2') format('woff2'),
+		 url('olivier-webfont.woff') format('woff'),
+		 url('olivier-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'itcfranklinggothicbook', sans-serif;
+    src: url("../fonts/ITCFranklinGothicStd-Book.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'itcfranklinggothicdemi', sans-serif;
+    src: url("../fonts/ITCFranklinGothicStd-Demi.otf") format("opentype");
+}
+
+.picContainer {
+	position:relative;
+	height: 86%;
+
+}
+.pic2 {
+	position:absolute; 
+	top:0px; 
+	left:0px;
+}
+
+
+
+.nombreContainer{
+	position: absolute;
+    top: 49%;
+	width: 100%
+    
+}
+.nombre{
+	position: relative;
+    font-family: 'olivierregular', sans-serif;
+    color: #646f5f;
+	font-size: 66px;
+	text-align: center;
+}
+
+.apellidoContainer{
+	position: absolute;
+    top: 54%;
+	width: 100%;
+}
+
+.apellido{
+	position:relative; 
+	font-family: 'itcfranklinggothicdemi', sans-serif;
+	font-weight: bold; 
+	font-size: 50px;
+	text-align: center;
+}
+
+
+.cargoContainer{
+	position: absolute;
+    top: 61%;
+	width: 100%;
+}
+
+.cargo{
+	position:relative; 
+	font-family: 'itcfranklinggothicbook', sans-serif;
+	font-size: 28px;
+	text-align: center;
+	font-weight: 100;
+}
+
+.correoContainer{
+	position:absolute; 
+	top:70%; 
+	left:35%;
+	font-size: 29px;
+}
+
+.correo{
+	position:relative; 
+	font-family: 'itcfranklinggothicbook', sans-serif;
+	font-size: 29px;
+}
+
+.telefonoContainer{
+	position:absolute; 
+	top:76%; 
+	left:35%;
+	font-size: 29px;
+}
+
+.telefono{
+	position:relative; 
+	font-family: 'itcfranklinggothicbook', sans-serif;
+	font-size: 29px;
+}
+
+.nombreContacto{
+	font-size: 25px;
+}
+
+.apellidoContacto{
+	font-size: 19px;
+}
+
+.cargoContacto{
+	font-size: 10px;
+}
+
+.correoContacto{
+	font-size: 12px;
+}
+
+.correoContainerContacto{
+	left: 25%;
+}
+
+.telefonoContacto{
+	font-size: 12px;
+}
+
+.telefonoContainerContacto{
+	left: 25%;
+}
+
+
+	/* Mobile Styles */
+	@media only screen and (max-width: 450px) {
+		.nombre{
+			font-size: 39px;
+		}
+		.apellido{
+			font-size: 34px;
+		}
+		.cargo{
+			font-size: 17px;
+		}
+		.correoContainer{
+			left: 25%;
+		}
+		.telefonoContainer{
+			left: 25%;
+		}
+		.correo{
+			font-size: 18px;
+		}
+		.telefono{
+			font-size: 18px;
+		}
+
+		/*Contactos*/
+
+		.apellidoContainerContacto{
+			top:57%;
+		}
+		.apellidoContacto{
+			font-size: 30px;
+		}
+
+		.nombreContainerContacto{
+			top: 51%;
+		}
+
+		.nombreContacto{
+			font-size: 39px;
+		}
+
+		.cargoContainerContacto{
+			top:64%;
+		}
+
+		.cargoContacto{
+			font-size: 17px;
+		}
+
+		.correoContainerContacto{
+			top: 73%;
+		}
+
+		.telefonoContainerContacto{
+			top:80%;
+		}
+
+	}
+
+
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 451px) and (max-width: 570px) {
+	
+	.nombre{
+		font-size: 51px;
+	}
+	.apellido{
+		font-size: 37px;
+	}
+	.cargo{
+		font-size: 22px;
+	}
+	.correoContainer{
+		left: 25%;
+	}
+	.telefonoContainer{
+		left: 25%;
+	}
+	.correo{
+		font-size: 21px;
+	}
+	.telefono{
+		font-size: 21px;
+	}
+
+	/*Contactos*/
+
+	.apellidoContainerContacto{
+		top:58%;
+	}
+	.apellidoContacto{
+		font-size: 35px;
+	}
+
+	.nombreContainerContacto{
+		top: 52%;
+	}
+
+	.nombreContacto{
+		font-size: 47px;
+	}
+
+	.cargoContainerContacto{
+		top:65%;
+	}
+
+	.cargoContacto{
+		font-size: 20px;
+	}
+
+	.correoContainerContacto{
+		top: 75%;
+	}
+
+	.telefonoContainerContacto{
+		top:81%;
+	}
+
+	.telefonoContacto{
+		font-size: 22px;
+	}
+	
+  }
+
+    /* Tablet Styles */
+	@media only screen and (min-width: 571px) and (max-width: 770px) {
+	
+		.nombre{
+			font-size: 54px;
+		}
+		.apellido{
+			font-size: 42px;
+		}
+		.cargo{
+			font-size: 22px;
+		}
+		.correoContainer{
+			left: 25%;
+		}
+		.telefonoContainer{
+			left: 25%;
+		}
+		.correo{
+			font-size: 25px;
+		}
+		.telefono{
+			font-size: 25px;
+		}
+		/*Contactos*/
+
+		.apellidoContainerContacto{
+			top:58%;
+		}
+		.apellidoContacto{
+			font-size: 38px;
+		}
+
+		.nombreContainerContacto{
+			top: 52%;
+		}
+
+		.nombreContacto{
+			font-size: 49px;
+		}
+
+		.cargoContainerContacto{
+			top:66%;
+		}
+
+		.cargoContacto{
+			font-size: 20px;
+		}
+
+		.correoContacto{
+			font-size: 23px;
+		}
+
+		.correoContainerContacto{
+			top: 75%;
+		}
+
+		.telefonoContainerContacto{
+			top:82%;
+		}
+
+		.telefonoContacto{
+			font-size: 23px;
+		}
+		
+	  }
+
+  /* Tablet Styles */
+  @media only screen and (min-width: 771px) and (max-width: 990px) {
+	.nombre{
+		font-size: 69px;
+	}
+	.correoContainer{
+		left: 25%;
+	}
+	.telefonoContainer{
+		left: 25%;
+	}
+	.correo{
+		font-size: 31px;
+	}
+	.telefono{
+		font-size: 31px;
+	}
+
+	/*Contactos*/
+
+	.apellidoContainerContacto{
+		top:56%;
+	}
+	.apellidoContacto{
+		font-size: 24px;
+	}
+
+	.nombreContainerContacto{
+		top: 50%;
+	}
+
+	.nombreContacto{
+		font-size: 33px;
+	}
+
+	.cargoContainerContacto{
+		top:63%;
+	}
+
+	.cargoContacto{
+		font-size: 14px;
+	}
+
+	.correoContacto{
+		font-size: 15px;
+	}
+
+	.correoContainerContacto{
+		top: 72%;
+	}
+
+	.telefonoContainerContacto{
+		top:78%;
+	}
+
+	.telefonoContacto{
+		font-size: 15px;
+	}
+	
+  }
+
+  /* Tablet Styles */
+  @media only screen and (min-width: 991px) and (max-width: 1200px) {
+	.nombre{
+		font-size: 55px;
+	}
+	.apellido{
+		font-size: 42px;
+	}
+	.cargo{
+		font-size: 23px;
+	}
+	.correo{
+		font-size: 25px;
+	}
+	.telefono{
+		font-size: 25px;
+	}
+
+	/*Contactos*/
+
+	.apellidoContainerContacto{
+		top:53%;
+	}
+	.apellidoContacto{
+		font-size: 15px;
+	}
+
+	.nombreContainerContacto{
+		top: 47%;
+	}
+
+	.nombreContacto{
+		font-size: 20px;
+	}
+
+	.cargoContainerContacto{
+		top:59%;
+	}
+
+	.cargoContacto{
+		font-size: 8px;
+	}
+
+	.correoContacto{
+		font-size: 9px;
+	}
+
+	.correoContainerContacto{
+		top: 68%;
+	}
+
+	.telefonoContainerContacto{
+		top:74%;
+	}
+
+	.telefonoContacto{
+		font-size: 9px;
+	}
+
+  }
+  
+
+
+.Absolute-Center.is-Responsive {
+  	margin: auto;
+  	width: 800px;
+  	padding:50px;
+}
+
+.menuIzquierdo{
+	float: left;
+	margin-top:94px;
+}
+
+.container{
+	margin-top: 100px;
+	padding: 15px;
+}
+
+.menuIzquierdo ul{
+	list-style-type: none;
+}
+
+.menuIzquierdo li{
+    padding: 15px;
+}
+
+.tituloPrincipal {
+	padding-bottom: 40px;
+}
+
+.fuenteSumma{
+	font-family: 'olivierregular', sans-serif;
+}
+
+.actionCell{
+	padding:0 !important;
+}
+
+.actionCell i{
+	margin: -10px;
+}
+
+.actionCell button{
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+
