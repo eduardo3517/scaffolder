@@ -1,9 +1,9 @@
 <?php
 class Database{
 
-    private static $dbName = "u800399338_bdpv" ;
+    private static $dbName = "scaffolder2" ;
     private static $dbHost = "localhost" ;
-    private static $dbUsername = "u800399338_root";
+    private static $dbUsername = "root";
     private static $dbUserPassword = "dXiM0M6JIOwf";
      
     private static $cont  = null;
