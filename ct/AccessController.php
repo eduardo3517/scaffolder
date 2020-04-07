@@ -16,6 +16,7 @@ class AccessController{
 	}
 
 	public function direccionar($c, $mensaje){
+		echo $c;
 		
 		switch ($c){
 			case "lg":
