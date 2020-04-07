@@ -1,6 +1,6 @@
 <?php 
 
-header ("location: ct/ProyectoController.php?c=lgv");
+header ("location: ct/ProyectoController.php");
 
 ?>
 	

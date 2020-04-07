@@ -335,7 +335,7 @@ Class ProyectoModel {
 
 		$contenidoIndexProy = '<?php 
 
-header ("location: ct/SeguridadController.php?c=lgv");
+header ("location: ct/SeguridadController.php");
 
 ?>
 	';
