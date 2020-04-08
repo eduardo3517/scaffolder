@@ -19,7 +19,7 @@ Class UsuarioModel {
 		$this->CorreoElectronico=$CorreoElectronico;
 		$this->Contrasena=$Contrasena;
 		$this->TipoUsuario=$TipoUsuario;
-	  	$this->db="scaffolder2";
+		$this->db=Database::$dbName;
     	
 	}
 

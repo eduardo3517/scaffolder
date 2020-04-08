@@ -46,7 +46,7 @@ Class CampoModel {
 		$this->RelacionEntidad=$RelacionEntidad;
 		$this->RelacionEntidadCampo=$RelacionEntidadCampo;
 		$this->Comentarios=$Comentarios;
-	  	$this->db="scaffolder2";
+		$this->db=Database::$dbName;
     	
 	}
 	public function setId($Id){

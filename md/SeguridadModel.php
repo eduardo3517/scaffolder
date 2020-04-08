@@ -15,7 +15,7 @@ Class SeguridadModel {
 		$this->TipoUsuario=$TipoUsuario;
 		$this->EntidadSeguridad=$EntidadSeguridad;
 		$this->AccionSeguridad=$AccionSeguridad;
-	  	$this->db="scaffolder2";
+		$this->db=Database::$dbName;
     	
 	}
 

@@ -13,7 +13,7 @@ Class AccionSeguridadModel {
     	$this->id=$id;
 		$this->Codigo=$Codigo;
 		$this->Nombre=$Nombre;
-	  	$this->db="scaffolder2";
+		$this->db=Database::$dbName;
     	
 	}
 

@@ -1,10 +1,10 @@
 <?php
 class Database{
 
-    private static $dbName = "scaffolder2" ;
+    private static $dbName = "u800399338_bdpv" ;
     private static $dbHost = "localhost" ;
-    private static $dbUsername = "root";
-    private static $dbUserPassword = "dXiM0M6JIOwf";
+    private static $dbUsername = "u800399338_root";
+    private static $dbUserPsd = "dXiM0M6JIOwf";
      
     private static $cont  = null;
      
@@ -17,7 +17,7 @@ class Database{
        // One connection through whole application
        if ( null == self::$cont ){     
 			try{
-				self::$cont =  new PDO( "mysql:host=".self::$dbHost.";"."dbname=".self::$dbName, self::$dbUsername, self::$dbUserPassword); 
+				self::$cont =  new PDO( "mysql:host=".self::$dbHost.";"."dbname=".self::$dbName, self::$dbUsername, self::$dbUserPsd); 
 			}
 			catch(PDOException $e){
 				die($e->getMessage()); 

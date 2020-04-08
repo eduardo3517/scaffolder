@@ -21,7 +21,7 @@ Class ProyectoModel {
 
 	function __construct (){
 
-	  	$this->db="scaffolder2";
+		$this->db=Database::$dbName;
     	
 	}
 

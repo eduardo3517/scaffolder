@@ -17,7 +17,7 @@ Class TipoCampoModel {
 		$this->ValorBD=$ValorBD;
 		$this->ValorForm=$ValorForm;
 		$this->Placeholder = $Placeholder;
-	  	$this->db="scaffolder2";
+		$this->db=Database::$dbName;
     	
 	}
 

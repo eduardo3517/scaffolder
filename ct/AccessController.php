@@ -16,7 +16,6 @@ class AccessController{
 	}
 
 	public function direccionar($c, $mensaje){
-		echo $c;
 		
 		switch ($c){
 			case "lg":
@@ -48,6 +47,11 @@ class AccessController{
 				//se redirecciona a la página principal.
 				header ("Location: ../index.php");
 			break;
+
+			default:
+				header ("Location: ../index.php");
+			break;
+
 		} 
 	}
 }

@@ -13,7 +13,7 @@ Class TipoUsuarioModel {
     	$this->id=$id;
 		$this->Nombre=$Nombre;
 		$this->Descripcion=$Descripcion;
-	  	$this->db="scaffolder2";
+		$this->db=Database::$dbName;
     	
 	}
 

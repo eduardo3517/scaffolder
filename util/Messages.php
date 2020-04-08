@@ -18,3 +18,5 @@ class Messages{
     public const ICON_UPLOAD_ERROR = 'La imagen seleccionada debe ser cuadrada y mínimo 400 px.';
 
 }
+
+?>

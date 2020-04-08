@@ -23,7 +23,7 @@ Class EntidadModel {
 		$this->FechaUltimaModificacion=$FechaUltimaModificacion;
 		$this->Comentario=$Comentario;
 		$this->Relacion=$Relacion;
-	  	$this->db="scaffolder2";
+		$this->db=Database::$dbName;
     	
 	}
 
