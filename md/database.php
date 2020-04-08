@@ -30,5 +30,9 @@ class Database{
     {
         self::$cont = null;
     }
+
+    public static function getDataBaseName(){
+        return self::$dbName;
+    }
 }
 ?>

@@ -21,7 +21,7 @@ Class ProyectoModel {
 
 	function __construct (){
 
-		$this->db=Database::$dbName;
+		$this->db=Database::getDataBaseName();
     	
 	}
 

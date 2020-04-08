@@ -19,7 +19,7 @@ Class UsuarioModel {
 		$this->CorreoElectronico=$CorreoElectronico;
 		$this->Contrasena=$Contrasena;
 		$this->TipoUsuario=$TipoUsuario;
-		$this->db=Database::$dbName;
+		$this->db=Database::getDataBaseName();
     	
 	}
 

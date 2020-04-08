@@ -23,7 +23,7 @@ Class EntidadModel {
 		$this->FechaUltimaModificacion=$FechaUltimaModificacion;
 		$this->Comentario=$Comentario;
 		$this->Relacion=$Relacion;
-		$this->db=Database::$dbName;
+		$this->db=Database::getDataBaseName();
     	
 	}
 

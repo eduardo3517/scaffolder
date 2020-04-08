@@ -46,7 +46,7 @@ Class CampoModel {
 		$this->RelacionEntidad=$RelacionEntidad;
 		$this->RelacionEntidadCampo=$RelacionEntidadCampo;
 		$this->Comentarios=$Comentarios;
-		$this->db=Database::$dbName;
+		$this->db=Database::getDataBaseName();
     	
 	}
 	public function setId($Id){

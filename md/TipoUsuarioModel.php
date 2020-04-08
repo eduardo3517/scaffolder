@@ -13,7 +13,7 @@ Class TipoUsuarioModel {
     	$this->id=$id;
 		$this->Nombre=$Nombre;
 		$this->Descripcion=$Descripcion;
-		$this->db=Database::$dbName;
+		$this->db=Database::getDataBaseName();
     	
 	}
 

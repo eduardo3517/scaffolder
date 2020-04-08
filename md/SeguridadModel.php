@@ -15,7 +15,7 @@ Class SeguridadModel {
 		$this->TipoUsuario=$TipoUsuario;
 		$this->EntidadSeguridad=$EntidadSeguridad;
 		$this->AccionSeguridad=$AccionSeguridad;
-		$this->db=Database::$dbName;
+		$this->db=Database::getDataBaseName();
     	
 	}
 
